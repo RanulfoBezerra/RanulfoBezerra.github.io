@@ -10,7 +10,7 @@ role: Research Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Tough Cyberphysical AI Research Center - Tohoku University
+  - name: Tough Cyberphysical AI Research Center Tohoku University
     url: http://tcpai.tohoku.ac.jp/en/
 
 # Short bio (displayed in user profile at end of posts)
@@ -70,4 +70,4 @@ highlight_name: true
 I am a Project Researcher in the Tough Cyberphysical AI Research Center at Tohoku University in Sendai, Japan. I received my Ph.D. degree in Information Sciences from Tohoku University, Japan in 2021. I received my M.Sc. and B.Sc. in computer science from the Federal University of Piaui, Brazil in 2018, and 2016 respectively. My research interests are robot intelligence and robotic perception. A member of RSJ and IEEE.
 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/RB_CV.pdf" "newtab" >}}resumé{{< /staticref >}}.
