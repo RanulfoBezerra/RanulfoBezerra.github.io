@@ -28,10 +28,10 @@ content:
   email: bezerra.ranulfo@rm.is.tohoku.ac.jp
   phone: +81 022-795-4871
   address:
-    street: Aoba Aramaki, 未来産業技術共同研究館, 401
+    street: 6-6-01 Aramaki Aza Aoba, Aoba-ku
     city: Sendai
     region: Miyagi
-    postcode: '980-0845'
+    postcode: '980-8579'
     country: Japan
     country_code: JP
  # coordinates:
