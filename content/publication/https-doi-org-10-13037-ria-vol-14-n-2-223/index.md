@@ -1,7 +1,7 @@
 ---
 title: "Sistema Óptico Portátil para Auxílio na Análise Cinemática da Marcha Humana"
 date: 2018-01-01
-publishDate: 2022-07-15T16:47:25.659660Z
+publishDate: 2022-07-19T14:11:28.059616Z
 authors: ["Ranulfo Bezerra", "Francisco Bruno De Sousa Rocha", "Diego Porto Rocha", "Karoline De Moura Farias", "Ricardo De Andrade Lira Rabelo", "André Macêdo Santana"]
 publication_types: ["2"]
 abstract: ""

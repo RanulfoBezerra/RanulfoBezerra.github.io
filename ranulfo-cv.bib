@@ -1,0 +1,460 @@
+@article{10.1109/itsc48978.2021.9564906,
+ abstract = {Automated Driving Systems (ADSs) are being proposed as a promising technology that will help drivers avoid accidents, as well as reduce driving-related stress. To enhance the driving performance of ADSs, driving log data from human drivers is being used to teach these systems how to behave in different traffic regions. Visual information from the driving log data is an easy method to identify traffic regions. However, due to space constraints or lack of visual sensors, most of the driving log data has no visual information. Therefore, another solution is necessary to identify traffic regions using only spatial information. To address this challenge, the paper proposes a region recognition method using key primitive transitions obtained from vehicle trajectory information. To obtain the motion primitives, we employed a hierarchical similarity clustering that combines hierarchical clustering and HDP-HSMM. The vehicle behavior from the region of interest was extracted by analyzing the motion primitives transitions located within close range (50 m) of the region. We assessed the behavior of vehicles when approaching two regions: traffic lights and entrances. Three environments were used to evaluate the proposed method, with two different drivers and distinguished layouts. This study shows that the proposed classification method can identify traffic light and entrance regions with an average 89\% precision and 86\% f-score. Additionally, the hierarchical similarity clustering and window observation approach developed in this study is responsible for increasing the system's precision by 9\%.},
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Kojima, Shotaro and Tadokoro, Satoshi},
+ doi = {10.1109/itsc48978.2021.9564906},
+ journal = {2021 IEEE International Intelligent Transportation Systems Conference (ITSC)},
+ keywords = {},
+ pages = {1437--1444},
+ title = {Region Recognition Based on HMM Using Primitive Motion Transitions},
+ volume = {00},
+ year = {2021}
+}
+
+@article{10.1109/iros45743.2020.9340697,
+ abstract = {Backhoe loads sediment onto the bed of dump trucks during earthmoving work. The prediction of backhoe loading time is essential for ensuring safe cooperation between the backhoe and dump trucks. However, it is difficult to predict the instant at which the backhoe is ready to load sediment, because of the similarity in motions observed during gathering sediment. Moreover, since operators have different skill levels, the prediction requires a unique model for each operator. In this study, we attempt to predict the instant at which the backhoe is ready to load sediment into the dump truck. For this purpose, the beta-process hidden Markov model (BP-HMM) is employed to build a backhoe motion model for a specific operator. Time series data of backhoe loading motions for crushed rocks and wood chips, which were measured using 6-axis inertial measurement unit (IMU) sensors equipped at the cab, boom, and arm of the backhoe, were used for modeling with the BP-HMM. Several primitive motions of the backhoe, which occur at the completion of preparation before the loading process begins, were discovered as a result of the motion modeling based on the BP-HMM. We developed the prediction of the instant using three primitive motions. At best, the proposed method could predict the instant with a probability of 67\% and 100\%, at 6.0 s and 0.7 s before the loading motions began, respectively. This phased prediction can be used to reduce the idle time and risk for dump trucks during earthmoving work with the backhoe.},
+ author = {Yamada, Kento and Ohno, Kazunori and Hamada, Ryunosuke and Westfechtel, Thomas and Bezerra, Ranulfo and Miyamoto, Naoto and Suzuki, Taro and Suzuki, Takahiro and Nagatani, Keiji and Shibata, Yukinori and Asano, Kimitaka and Komatsu, Tomohiro and Tadokoro, Satoshi},
+ doi = {10.1109/iros45743.2020.9340697},
+ journal = {2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+ keywords = {},
+ pages = {2663--2670},
+ title = {Prediction of Backhoe Loading Motion via the Beta-Process Hidden Markov Model},
+ volume = {00},
+ year = {2021}
+}
+
+@article{9659455,
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Kojima, Shotaro and Tadokoro, Satoshi},
+ doi = {10.1109/icar53236.2021.9659455},
+ journal = {International Conference on Advanced Robotics (ICAR)},
+ keywords = {},
+ pages = {441--448},
+ title = {Causal Analysis for Understanding Vehicle Behavior Affected by Multiple Factors},
+ year = {2021}
+}
+
+@article{10.1109/sii46433.2020.9026227,
+ abstract = {Sensing position and orientation of construction vehicle is an important issue for automation of construction process. We aim to develop sensing and visualization technologies for construction vehicles. Our target construction vehicle is backhoes. Construction vehicles are usually rented in construction fields. However, construction vehicles that can be rented do not have the sensing function. It is too hard to obtain backhoe position and manipulator pose without sensing information. This paper proposes an attachable sensor box that can measure backhoe position and orientation and the manipulator pose. The sensor boxes can be attached on backhoe metal surface by magnetic force without any additional manufacturing on the construction vehicle surface. By using WiFi communication and mobile battery the sensor box can be easily attached on large-size backhoe without wiring. After the work is done, it is easily detached by changing magnetic force power. At loading and scooping motion, backhoe arm and boom have large force exceeding 16 G. To attach the sensor boxes to the arm and boom, we designed an additional magnetic frame that can generate force of 1960 N. The sensor boxes were firmly attached to each joint and prevented to drop by any force from backhoes movement. We also measured the behavior of the backhoe in loading works in hot conditions over 30 °C and visualized backhoe pose and tip manipulator position.},
+ author = {Yamada, Kento and Ohno, Kazunori and Miyamoto, Naoto and Suzuki, Taro and Kojima, Shotaro and Bezerra, Ranulfo and Suzuki, Takahiro and Nagatani, Keiji and Shibata, Yukinori and Asano, Kimitaka and Komatsu, Tomohiro and Tadokoro, Satoshi},
+ doi = {10.1109/sii46433.2020.9026227},
+ journal = {2020 IEEE/SICE International Symposium on System Integration (SII)},
+ keywords = {},
+ pages = {706--711},
+ title = {Attachable Sensor Boxes to Visualize Backhoe Motion},
+ volume = {00},
+ year = {2020}
+}
+
+@INPROCEEDINGS{8914253,
+  author={Bezerra, Ranulfo and Rabelo, Ricardo A. L. and Santana, Andre M.},
+  booktitle={2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)}, 
+  title={A Dual Antenna Approach for Range-only SLAM}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1030-1035},
+  abstract={The proposal of this work consists in an approach based on the utilization of two Wi-Fi receivers, using RSS information received by the transmission nodes (Access Point) for the SLAM problem. The solution presented is based on extended Kalman filter using RSS coming from different transmitters in the environment. This approach was chosen because the Cellbot platform has two Wi-Fi receivers, therefore combining the two range-only sensors improves the precision of the system. The system considers that a robot navigates in an unknown environment where it receives different Wi-Fi signals from a known source. Through the odometry and Wi-Fi signals, the robot localizes itself and the position of each Wi-Fi transmitter. The results show the viability of the application, and an increase of 38\% in precision of the robot pose by using proposed approach.},
+  keywords={},
+  doi={10.1109/SMC.2019.8914253},
+  ISSN={2577-1655}
+}
+@article{Westfechtel2019,
+ abstract = {Current self-driving vehicles rely on detailed maps of the environment, that contains exhaustive semantic information. This work presents a strategy to utilize the recent advancements in semantic segmentation of images, fuse the information extracted from the camera stream with accurate depth measurements of a Lidar sensor in order to create large scale semantic labeled point clouds of the environment. We fuse the color and semantic data gathered from a round-view camera system with the depth data gathered from a Lidar sensor. In our framework, each Lidar scan point is projected onto the camera stream to extract the color and semantic information while at the same time a large scale 3D map of the environment is generated by a Lidar-based SLAM algorithm. While we employed a network that achieved state of the art semantic segmentation results on the Cityscape dataset [1] (IoU score of 82.1\%), the sole use of the extracted semantic information only achieved an IoU score of 38.9\% on 105 manually labeled 5x5m tiles from 5 different trial runs within the Sendai city in Japan (this decrease in accuracy will discussed in section III-B). To increase the performance, we reclassify the label of each point. For this two different approaches were investigated: a random forest and SparseConvNet [2] (a deep learning approach). We investigated for both methods how the inclusion of semantic labels from the camera stream affected the classification task of the 3D point cloud. To which end we show, that a significant performance increase can be achieved by doing so - 25.4 percent points for random forest (40.0\% w/o labels to 65.4\% with labels) and 16.6 in case of the SparseConvNet (33.4\% w/o labels to 50.8\% with labels). Finally, we present practical examples on how semantic enriched maps can be employed for further tasks. In particular, we show how different classes (i.e. cars and vegetation) can be removed from the point cloud in order to increase the visibility of other classes (i.e. road and buildings). And how the data could be used for extracting the trajectories of vehicles and pedestrians.},
+ author = {Westfechtel, Thomas and Ohno, Kazunori and Bezerra, Ranulfo and Kojima, Shotaro and Tadokoro, Satoshi},
+ doi = {10.1109/itsc.2019.8917107},
+ journal = {2019 IEEE Intelligent Transportation Systems Conference, ITSC 2019},
+ keywords = {},
+ pages = {257--264},
+ title = {Fusion of Camera and Lidar Data for Large Scale Semantic Mapping},
+ year = {2019}
+}
+
+@article{10.1109/icar46387.2019.8981587,
+ abstract = {One of the major challenges that autonomous cars are facing today is the unpredictability of pedestrian movement in urban environments. Since pedestrian data acquired by vehicles are sparse observed a pedestrian flow directed graph is proposed to understand pedestrian behavior. In this work, an autonomous electric vehicle is employed to gather LiDAR and camera data. Pedestrian tracking information and semantic information from the environment are used with a probabilistic approach to create the graph. In order to refine the graph a set of outlier removal techniques are described. The graph-based pedestrian flow shows an increase of 61.29 \% of coverage zone, and the outlier removal approach successfully removed 81 \% of the edges.},
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Westfechtel, Thomas and Tadokoro, Satoshi},
+ doi = {10.1109/icar46387.2019.8981587},
+ journal = {2019 19th International Conference on Advanced Robotics (ICAR)},
+ keywords = {},
+ pages = {779--784},
+ title = {Pedestrian Flow Estimation Using Sparse Observation for Autonomous Vehicles},
+ volume = {00},
+ year = {2019}
+}
+
+@article{Farias2019,
+ abstract = {Prior authorization (or preauthorization) is a control mechanism used by a Health Maintenance Organization (HMO) to minimize the waste of resources by analyzing each medical request. One of the strategies used to optimize this task is the use of a system that automates part of this process through a machine learning approach. This paper presents an approach that introduces the historical request from beneficiaries to the learning process in preauthorization in order to improve performance of the classification. For this, different approaches to data pre-processing and classification were tested. In the proposed methodology three types of historical representation were tested: binary, term frequency (TF) and term frequency-inverse document frequency (TF-IDF). For each of these representations, feature selection and transformation algorithms were applied: consistency subset eval, wrapper subset eval and Kernel PCA (KPCA). In the classification were tested three classic algorithms of machine learning: Random Forest (RF), Support Vector Machine (SVM) and K-neareast neighbors (KNN). In order to evaluate the results obtained, we used the Precision, Recall and Kappa index metrics for each of the problem classes. A comparison based on the hypothesis test Z is also performed to evaluate the improvement that the addition of the historical information has brought about to the learning process. The results point to a significant improvement in the performance of classifiers, where the representation in term frequency combined with KPCA brought the most positive results.},
+ author = {Farias, K. and Neto, P. Santos and Santana, A. and Bezerra, R.},
+ doi = {10.1109/bracis.2019.00110},
+ journal = {Brazilian Conference on Intelligent Systems (BRACIS)},
+ keywords = {Historical Representation,Machine Learning,Prior Authorization},
+ title = {Using historical information of patients for prior authorization learning},
+ year = {2019}
+}
+
+@article{DeRocha2018,
+ abstract = {In this paper, we present a fuzzy system for structural recognition in which the environment information is used to generate a topological map. The proposed method combines the recognized information from a given scene with a topological graph to create a map. This map can be used to plan high-level tasks of robotic navigation. The topological nodes are used to store semantic information, such as the robot's poses, sensor data and scene characteristics. The fuzzy system categorizes the structural information as either rooms, corridors or doors.},
+ author = {Rocha, Francisco B.S. De and Bezerra, Ranulfo and Junior, Wilson L.R. and Reis, Dyogo M. and Rabêlo, Ricardo A.L. De and Santana, André M. and Costa, Joao G.C.},
+ doi = {10.1109/fuzz-ieee.2018.8491502},
+ journal = {IEEE International Conference on Fuzzy Systems},
+ keywords = {},
+ title = {Topological mapping using fuzzy systems for structural recognition},
+ volume = {2018-July},
+ year = {2018}
+}
+
+@article{10.5753/cbie.sbie.2017.907,
+ author = {Rocha, Francisco Bruno and Rocha, Diego Porto and Monção, Nayana and Bezerra, Ranulfo and Costa, João Guilherme Cavalcanti and Farias, Karoline De Moura and Lima, Bruno Vicente and Santana, Andre Macedo},
+ doi = {10.5753/cbie.sbie.2017.907},
+ journal = {Anais do XXVIII Simpósio Brasileiro de Informática na Educação (SBIE 2017)},
+ keywords = {},
+ pages = {907},
+ title = {AbaQuim - Um Jogo Educativo para Auxílio na Aprendizagem de Distribuição Eletrônica Química},
+ year = {2017}
+}
+
+@inproceedings{Farias2017,
+ abstract = {© 2017 IEEE. This paper presents an approach using range measurement through homography calculation to build 2D visual occupancy grid and control the robot through monocular vision. This approach is designed for a Cellbot architecture. The robot is equipped with wall following behavior to explore the environment, which enables the robot to trail objects contours, residing in the fuzzy control the responsibility to provide commands for the correct execution of the robot movements while facing the adversities in the environment. In this approach the Cellbot camera works as a sensor capable of correlating the images elements to the real world, thus the system is capable of finding the distances of the obstacles and that information is used for the occupancy grid mapping and for fuzzy control input. Experimental results with V-REP simulator are presented to validate the proposal, and the results were favorable to the use in robotics and in acceptable computing time.},
+ author = {Farias, K.D.M. and Leal, R. Wilson and Bezerra, Ranulfo and Rabelo, R.A.L. and Santana, A.M.},
+ doi = {10.1109/clei.2017.8226377},
+ isbn = {9781538630570},
+ keywords = {Fuzzy System,Monocular Vision,Occupancy-Grid Mapping,Wall-Following},
+ pages = {1--8},
+ series = {2017 XLIII Latin American Computer Conference (CLEI)},
+ title = {An approach for environment mapping and control of wall follower cellbot through monocular vision and fuzzy system},
+ volume = {2017-Janua},
+ year = {2017}
+}
+
+@article{BezerraNeto2015,
+ abstract = {This paper goal is to present a systematic revision of the works related to robotic on education, which were published on three national events of this area: Informatics on Education Brazilian Symposium (SBIE), Informatics on School Workshop (WIE), Robotics on Education Workshop (WRE), between 2004 to 2014. The results shown an increasing interest of brazilian community for the area, highlighting the northeast and southeast regions of Brazil responsible for most of the works. It was also found that 63\% of this works represents proposals of the use of robotics on elementary school with new methodologies and robots to assist pedagogy in the use of robotics.},
+ author = {Bezerra, Ranulfo and Rocha, Diego Porto and Souza, Anderson A. S. and Santana, Andre Macedo},
+ doi = {10.5753/cbie.sbie.2015.386},
+ journal = {Simpósio Brasileiro de Informática na Educação},
+ keywords = {},
+ pages = {386--393},
+ title = {Robótica na Educação: Uma Revisão Sistemática dos Últimos 10 Anos},
+ url = {http://br-ie.org/pub/index.php/sbie/article/view/5192},
+ year = {2015}
+}
+
+@article{10.1007/s10846-021-01419-w,
+ abstract = {Autonomous vehicles require high-level semantic maps, which contain the activities of pedestrians and cars, to ensure safe navigation. High-level semantics can be obtained from mobile probe sensor data. Analyzing pedestrian trajectories obtained from mobile probe data is an effective approach to avoid collisions between autonomous vehicles and pedestrians. Such analyses of pedestrian trajectories can generate new information such as pedestrian behaviors in violation of traffic regulations. However, pedestrian trajectories obtained from mobile probe data significantly sparse and noisy, making it challenging to analyze pedestrian activity. To address this issue, we propose multiple daily data and graph-based approaches to treat sparse and noisy data for estimating the flow of pedestrians based on mobile probe data. To improve the sparseness of the data, multiple daily data are fused. After that, a pedestrian graph is created to enhance the region’s coverage by connecting the sparse data indicating the flow of pedestrians. This proposed approach successfully obtained pedestrian trajectory data from the sparse and noisy data. Moreover, it was possible to identify the potential locations where pedestrians tend to cross the street by analyzing the pedestrian flow. The results indicate that 83\% of well-known regions where pedestrians tend to cross the street corresponded with those extracted using the proposed approach. Furthermore, a high-level semantic map of the regions where pedestrians tend to cross the street along a 1-km road is presented. The trajectory information obtained using the proposed approach is expected to be essential for understanding different scenarios of the interactions between individuals and autonomous vehicles.},
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Westfechtel, Thomas and Kojima, Shotaro and Yamada, Kento and Tadokoro, Satoshi},
+ doi = {10.1007/s10846-021-01419-w},
+ issn = {0921-0296},
+ journal = {Journal of Intelligent \& Robotic Systems},
+ keywords = {},
+ number = {4},
+ pages = {85},
+ title = {Knowledge Acquisition from Pedestrian Flow Analysis using Sparse Mobile Probe Data},
+ volume = {102},
+ year = {2021}
+}
+
+@article{doi:10.1080/01691864.2021.1980101,
+author = {Kento Yamada and Kazunori Ohno and Ryunosuke Hamada and Ranulfo Bezerra and Naoto Miyamoto and Shotaro Kojima and Taro Suzuki and Takahiro Suzuki and Keiji Nagatani and Yukinori Shibata and Kimitaka Asano and Tomohiro Komatsu and Satoshi Tadokoro},
+title = {An individual prediction model of the pre-loading motion for operator and backhoe pairs},
+journal = {Advanced Robotics},
+volume = {35},
+number = {23},
+pages = {1388-1403},
+year  = {2021},
+publisher = {Taylor & Francis},
+doi = {10.1080/01691864.2021.1980101},
+URL = {https://doi.org/10.1080/01691864.2021.1980101},
+eprint = {https://doi.org/10.1080/01691864.2021.1980101},
+abstract = { The autonomous dump truck must judge whether the backhoe is ready for loading the sediment for smooth and safe cooperation with the human-operated backhoes. Analyzing time-series data of the human-operated backhoe loading motion is an effective method to build a prediction model. The transition of several primitive motions enables us to predict the timing when the backhoe starts loading. However, in transition modeling, manually selecting the appropriate primitive motions in the pre-loading motions requires considerable effort. In addition, a robust loading prediction is required for sensor layout changes in the installations of them. Here, we propose a BP-HMM-based prediction method of the pre-loading motion. The algorithm automatically finds the transition of several primitive motions from time-series data and its annotation labels. The selection of three angular velocities as features of the BP-HMM increases the robustness of the prediction method. The proposed method built a suitable prediction model for three different combinations of operators and backhoes. The prediction method was robust for sensor layout changes, and showed an accuracy of 100\%. The proposed prediction method contributes to the automation of earthmoving work by enabling smooth cooperation between autonomous dump trucks and human-operated backhoe. }
+}
+
+
+@article{10.1109/lra.2021.3062606,
+ abstract = {Semantic maps are an important tool to provide robots with high-level knowledge about the environment, enabling them to better react to and interact with their surroundings. However, as a single measurement of the environment is solely a snapshot of a specific time, it does not necessarily reflect the underlying semantics. In this work, we propose a method to create a semantic map of a construction site by fusing multiple daily data. The construction site is measured by an unmanned aerial vehicle (UAV) equipped with a LiDAR. We extract clusters above ground level from the measurements and classify them using either a random forest or a deep learning based classifier. Furthermore, we combine the classification results of several measurements to generalize the classification of the single measurements and create a general semantic map of the working site. We measured two construction fields for our evaluation. The classification models can achieve an average intersection over union (IoU) score of 69.2 during classification on the Sanbongi field, which is used for training, validation and testing and an IoU score of 49.16 on a hold-out testing field. In a final step, we show how the semantic map can be employed to suggest a parking spot for a dump truck, and in addition, show that the semantic map can be utilized to improve path planning inside the construction site.},
+ author = {Westfechtel, Thomas and Ohno, Kazunori and Akegawa, Tetsu and Yamada, Kento and Bezerra, Ranulfo and Kojima, Shotaro and Suzuki, Taro and Komatsu, Tomohiro and Shibata, Yukinori and Asano, Kimitaka and Nagatani, Keji and Miyamoto, Naoto and Suzuki, Takahiro and Harada, Tatsuya and Tadokoro, Satoshi},
+ doi = {10.1109/lra.2021.3062606},
+ issn = {2377-3766},
+ journal = {IEEE Robotics and Automation Letters},
+ keywords = {},
+ number = {2},
+ pages = {3073--3080},
+ title = {Semantic Mapping of Construction Site From Multiple Daily Airborne LiDAR Data},
+ volume = {6},
+ year = {2020}
+}
+
+@article{https://doi.org/10.13037/ria.vol14n2.223,
+ author = {Bezerra, Ranulfo and Rocha, Francisco Bruno De Sousa and Rocha, Diego Porto and Farias, Karoline De Moura and Rabelo, Ricardo De Andrade Lira and Santana, André Macêdo},
+ doi = {https://doi.org/10.13037/ria.vol14n2.223},
+ journal = {Revista de Informática Aplicada},
+ keywords = {cellphone,image analysis,motion capture},
+ number = {Vol. 14 No. 2},
+ title = {Sistema Óptico Portátil para Auxílio na Análise Cinemática da Marcha Humana},
+ year = {2018}
+}
+
+@article{undefined,
+ author = {Junior, Wilson L. Rodrigues and Reis, Dyogo M. and Bezerra, Ranulfo and Machado, Ronnasayd S. and Silva, Wanderson A. S. and Neto, José O. Brito and Rabêlo, Ricardo A. L. and Santana, André M.},
+ journal = {Revista de Sistemas e Computação},
+ keywords = {},
+ pages = {p. 55--63},
+ title = {Aplicação De Controladores Fuzzy E Proporcional Para Um Robô Seguidorde Parede Autônomoem Ambiente Estático},
+ volume = {v. 6, n. 1,},
+ year = {2016}
+}
+
+@article{rsj2021,
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Kojima, Shotaro and Tadokoro, Satoshi},
+ journal = {39th Japan Robotics Society Academic Lecture (RSJ)},
+ title = {Region Recognition Based on HMM Using Primitive Motion Transitions},
+ year = {2021}
+}
+
+@article{rsj2020,
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Westfechtel, Thomas and Kojima, Shotaro and Yamada, Kento and Tadokoro, Satoshi},
+ journal = {38th Japan Robotics Society Academic Lecture (RSJ)},
+ title = {Finding Suitable Pedestrian Crosswalk Locations from Trajectory Analysis},
+ year = {2020}
+}
+
+@article{rsj2019,
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Westfechtel, Thomas and Kojima, Shotaro and Yamada, Kento and Tadokoro, Satoshi},
+ journal = {37th Japan Robotics Society Academic Lecture (RSJ)},
+ title = {Pedestrian Flow Estimation Using Sparse Observation from Autonomous Vehicles},
+ year = {2019}
+}
+
+@article{rsj2019-1,
+ author = {Westfechtel, Thomas and Ohno, Kazunori and Bezerra, Ranulfo  and Kojima, Shotaro and Tadokoro, Satoshi},
+ journal = {37th Japan Robotics Society Academic Lecture (RSJ)},
+ title = {Large Scale Semantic Mapping Through Multi-modal Sensor Fusion},
+ year = {2019}
+}
+
+@article{10.1109/itsc48978.2021.9564906,
+ abstract = {Automated Driving Systems (ADSs) are being proposed as a promising technology that will help drivers avoid accidents, as well as reduce driving-related stress. To enhance the driving performance of ADSs, driving log data from human drivers is being used to teach these systems how to behave in different traffic regions. Visual information from the driving log data is an easy method to identify traffic regions. However, due to space constraints or lack of visual sensors, most of the driving log data has no visual information. Therefore, another solution is necessary to identify traffic regions using only spatial information. To address this challenge, the paper proposes a region recognition method using key primitive transitions obtained from vehicle trajectory information. To obtain the motion primitives, we employed a hierarchical similarity clustering that combines hierarchical clustering and HDP-HSMM. The vehicle behavior from the region of interest was extracted by analyzing the motion primitives transitions located within close range (50 m) of the region. We assessed the behavior of vehicles when approaching two regions: traffic lights and entrances. Three environments were used to evaluate the proposed method, with two different drivers and distinguished layouts. This study shows that the proposed classification method can identify traffic light and entrance regions with an average 89\% precision and 86\% f-score. Additionally, the hierarchical similarity clustering and window observation approach developed in this study is responsible for increasing the system's precision by 9\%.},
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Kojima, Shotaro and Tadokoro, Satoshi},
+ doi = {10.1109/itsc48978.2021.9564906},
+ journal = {2021 IEEE International Intelligent Transportation Systems Conference (ITSC)},
+ keywords = {},
+ pages = {1437--1444},
+ title = {Region Recognition Based on HMM Using Primitive Motion Transitions},
+ volume = {00},
+ year = {2021}
+}
+
+@article{10.1109/iros45743.2020.9340697,
+ abstract = {Backhoe loads sediment onto the bed of dump trucks during earthmoving work. The prediction of backhoe loading time is essential for ensuring safe cooperation between the backhoe and dump trucks. However, it is difficult to predict the instant at which the backhoe is ready to load sediment, because of the similarity in motions observed during gathering sediment. Moreover, since operators have different skill levels, the prediction requires a unique model for each operator. In this study, we attempt to predict the instant at which the backhoe is ready to load sediment into the dump truck. For this purpose, the beta-process hidden Markov model (BP-HMM) is employed to build a backhoe motion model for a specific operator. Time series data of backhoe loading motions for crushed rocks and wood chips, which were measured using 6-axis inertial measurement unit (IMU) sensors equipped at the cab, boom, and arm of the backhoe, were used for modeling with the BP-HMM. Several primitive motions of the backhoe, which occur at the completion of preparation before the loading process begins, were discovered as a result of the motion modeling based on the BP-HMM. We developed the prediction of the instant using three primitive motions. At best, the proposed method could predict the instant with a probability of 67\% and 100\%, at 6.0 s and 0.7 s before the loading motions began, respectively. This phased prediction can be used to reduce the idle time and risk for dump trucks during earthmoving work with the backhoe.},
+ author = {Yamada, Kento and Ohno, Kazunori and Hamada, Ryunosuke and Westfechtel, Thomas and Bezerra, Ranulfo and Miyamoto, Naoto and Suzuki, Taro and Suzuki, Takahiro and Nagatani, Keiji and Shibata, Yukinori and Asano, Kimitaka and Komatsu, Tomohiro and Tadokoro, Satoshi},
+ doi = {10.1109/iros45743.2020.9340697},
+ journal = {2020 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+ keywords = {},
+ pages = {2663--2670},
+ title = {Prediction of Backhoe Loading Motion via the Beta-Process Hidden Markov Model},
+ volume = {00},
+ year = {2021}
+}
+
+@article{9659455,
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Kojima, Shotaro and Tadokoro, Satoshi},
+ doi = {10.1109/icar53236.2021.9659455},
+ journal = {International Conference on Advanced Robotics (ICAR)},
+ keywords = {},
+ pages = {441--448},
+ title = {Causal Analysis for Understanding Vehicle Behavior Affected by Multiple Factors},
+ year = {2021}
+}
+
+@article{10.1109/sii46433.2020.9026227,
+ abstract = {Sensing position and orientation of construction vehicle is an important issue for automation of construction process. We aim to develop sensing and visualization technologies for construction vehicles. Our target construction vehicle is backhoes. Construction vehicles are usually rented in construction fields. However, construction vehicles that can be rented do not have the sensing function. It is too hard to obtain backhoe position and manipulator pose without sensing information. This paper proposes an attachable sensor box that can measure backhoe position and orientation and the manipulator pose. The sensor boxes can be attached on backhoe metal surface by magnetic force without any additional manufacturing on the construction vehicle surface. By using WiFi communication and mobile battery the sensor box can be easily attached on large-size backhoe without wiring. After the work is done, it is easily detached by changing magnetic force power. At loading and scooping motion, backhoe arm and boom have large force exceeding 16 G. To attach the sensor boxes to the arm and boom, we designed an additional magnetic frame that can generate force of 1960 N. The sensor boxes were firmly attached to each joint and prevented to drop by any force from backhoes movement. We also measured the behavior of the backhoe in loading works in hot conditions over 30 °C and visualized backhoe pose and tip manipulator position.},
+ author = {Yamada, Kento and Ohno, Kazunori and Miyamoto, Naoto and Suzuki, Taro and Kojima, Shotaro and Bezerra, Ranulfo and Suzuki, Takahiro and Nagatani, Keiji and Shibata, Yukinori and Asano, Kimitaka and Komatsu, Tomohiro and Tadokoro, Satoshi},
+ doi = {10.1109/sii46433.2020.9026227},
+ journal = {2020 IEEE/SICE International Symposium on System Integration (SII)},
+ keywords = {},
+ pages = {706--711},
+ title = {Attachable Sensor Boxes to Visualize Backhoe Motion},
+ volume = {00},
+ year = {2020}
+}
+
+@INPROCEEDINGS{8914253,
+  author={Bezerra, Ranulfo and Rabelo, Ricardo A. L. and Santana, Andre M.},
+  booktitle={2019 IEEE International Conference on Systems, Man and Cybernetics (SMC)}, 
+  title={A Dual Antenna Approach for Range-only SLAM}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1030-1035},
+  abstract={The proposal of this work consists in an approach based on the utilization of two Wi-Fi receivers, using RSS information received by the transmission nodes (Access Point) for the SLAM problem. The solution presented is based on extended Kalman filter using RSS coming from different transmitters in the environment. This approach was chosen because the Cellbot platform has two Wi-Fi receivers, therefore combining the two range-only sensors improves the precision of the system. The system considers that a robot navigates in an unknown environment where it receives different Wi-Fi signals from a known source. Through the odometry and Wi-Fi signals, the robot localizes itself and the position of each Wi-Fi transmitter. The results show the viability of the application, and an increase of 38\% in precision of the robot pose by using proposed approach.},
+  keywords={},
+  doi={10.1109/SMC.2019.8914253},
+  ISSN={2577-1655}
+}
+@article{Westfechtel2019,
+ abstract = {Current self-driving vehicles rely on detailed maps of the environment, that contains exhaustive semantic information. This work presents a strategy to utilize the recent advancements in semantic segmentation of images, fuse the information extracted from the camera stream with accurate depth measurements of a Lidar sensor in order to create large scale semantic labeled point clouds of the environment. We fuse the color and semantic data gathered from a round-view camera system with the depth data gathered from a Lidar sensor. In our framework, each Lidar scan point is projected onto the camera stream to extract the color and semantic information while at the same time a large scale 3D map of the environment is generated by a Lidar-based SLAM algorithm. While we employed a network that achieved state of the art semantic segmentation results on the Cityscape dataset [1] (IoU score of 82.1\%), the sole use of the extracted semantic information only achieved an IoU score of 38.9\% on 105 manually labeled 5x5m tiles from 5 different trial runs within the Sendai city in Japan (this decrease in accuracy will discussed in section III-B). To increase the performance, we reclassify the label of each point. For this two different approaches were investigated: a random forest and SparseConvNet [2] (a deep learning approach). We investigated for both methods how the inclusion of semantic labels from the camera stream affected the classification task of the 3D point cloud. To which end we show, that a significant performance increase can be achieved by doing so - 25.4 percent points for random forest (40.0\% w/o labels to 65.4\% with labels) and 16.6 in case of the SparseConvNet (33.4\% w/o labels to 50.8\% with labels). Finally, we present practical examples on how semantic enriched maps can be employed for further tasks. In particular, we show how different classes (i.e. cars and vegetation) can be removed from the point cloud in order to increase the visibility of other classes (i.e. road and buildings). And how the data could be used for extracting the trajectories of vehicles and pedestrians.},
+ author = {Westfechtel, Thomas and Ohno, Kazunori and Bezerra, Ranulfo and Kojima, Shotaro and Tadokoro, Satoshi},
+ doi = {10.1109/itsc.2019.8917107},
+ journal = {2019 IEEE Intelligent Transportation Systems Conference, ITSC 2019},
+ keywords = {},
+ pages = {257--264},
+ title = {Fusion of Camera and Lidar Data for Large Scale Semantic Mapping},
+ year = {2019}
+}
+
+@article{10.1109/icar46387.2019.8981587,
+ abstract = {One of the major challenges that autonomous cars are facing today is the unpredictability of pedestrian movement in urban environments. Since pedestrian data acquired by vehicles are sparse observed a pedestrian flow directed graph is proposed to understand pedestrian behavior. In this work, an autonomous electric vehicle is employed to gather LiDAR and camera data. Pedestrian tracking information and semantic information from the environment are used with a probabilistic approach to create the graph. In order to refine the graph a set of outlier removal techniques are described. The graph-based pedestrian flow shows an increase of 61.29 \% of coverage zone, and the outlier removal approach successfully removed 81 \% of the edges.},
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Westfechtel, Thomas and Tadokoro, Satoshi},
+ doi = {10.1109/icar46387.2019.8981587},
+ journal = {2019 19th International Conference on Advanced Robotics (ICAR)},
+ keywords = {},
+ pages = {779--784},
+ title = {Pedestrian Flow Estimation Using Sparse Observation for Autonomous Vehicles},
+ volume = {00},
+ year = {2019}
+}
+
+@article{Farias2019,
+ abstract = {Prior authorization (or preauthorization) is a control mechanism used by a Health Maintenance Organization (HMO) to minimize the waste of resources by analyzing each medical request. One of the strategies used to optimize this task is the use of a system that automates part of this process through a machine learning approach. This paper presents an approach that introduces the historical request from beneficiaries to the learning process in preauthorization in order to improve performance of the classification. For this, different approaches to data pre-processing and classification were tested. In the proposed methodology three types of historical representation were tested: binary, term frequency (TF) and term frequency-inverse document frequency (TF-IDF). For each of these representations, feature selection and transformation algorithms were applied: consistency subset eval, wrapper subset eval and Kernel PCA (KPCA). In the classification were tested three classic algorithms of machine learning: Random Forest (RF), Support Vector Machine (SVM) and K-neareast neighbors (KNN). In order to evaluate the results obtained, we used the Precision, Recall and Kappa index metrics for each of the problem classes. A comparison based on the hypothesis test Z is also performed to evaluate the improvement that the addition of the historical information has brought about to the learning process. The results point to a significant improvement in the performance of classifiers, where the representation in term frequency combined with KPCA brought the most positive results.},
+ author = {Farias, K. and Neto, P. Santos and Santana, A. and Bezerra, R.},
+ doi = {10.1109/bracis.2019.00110},
+ journal = {Brazilian Conference on Intelligent Systems (BRACIS)},
+ keywords = {Historical Representation,Machine Learning,Prior Authorization},
+ title = {Using historical information of patients for prior authorization learning},
+ year = {2019}
+}
+
+@article{DeRocha2018,
+ abstract = {In this paper, we present a fuzzy system for structural recognition in which the environment information is used to generate a topological map. The proposed method combines the recognized information from a given scene with a topological graph to create a map. This map can be used to plan high-level tasks of robotic navigation. The topological nodes are used to store semantic information, such as the robot's poses, sensor data and scene characteristics. The fuzzy system categorizes the structural information as either rooms, corridors or doors.},
+ author = {Rocha, Francisco B.S. De and Bezerra, Ranulfo and Junior, Wilson L.R. and Reis, Dyogo M. and Rabêlo, Ricardo A.L. De and Santana, André M. and Costa, Joao G.C.},
+ doi = {10.1109/fuzz-ieee.2018.8491502},
+ journal = {IEEE International Conference on Fuzzy Systems},
+ keywords = {},
+ title = {Topological mapping using fuzzy systems for structural recognition},
+ volume = {2018-July},
+ year = {2018}
+}
+
+@article{10.5753/cbie.sbie.2017.907,
+ author = {Rocha, Francisco Bruno and Rocha, Diego Porto and Monção, Nayana and Bezerra, Ranulfo and Costa, João Guilherme Cavalcanti and Farias, Karoline De Moura and Lima, Bruno Vicente and Santana, Andre Macedo},
+ doi = {10.5753/cbie.sbie.2017.907},
+ journal = {Anais do XXVIII Simpósio Brasileiro de Informática na Educação (SBIE 2017)},
+ keywords = {},
+ pages = {907},
+ title = {AbaQuim - Um Jogo Educativo para Auxílio na Aprendizagem de Distribuição Eletrônica Química},
+ year = {2017}
+}
+
+@inproceedings{Farias2017,
+ abstract = {© 2017 IEEE. This paper presents an approach using range measurement through homography calculation to build 2D visual occupancy grid and control the robot through monocular vision. This approach is designed for a Cellbot architecture. The robot is equipped with wall following behavior to explore the environment, which enables the robot to trail objects contours, residing in the fuzzy control the responsibility to provide commands for the correct execution of the robot movements while facing the adversities in the environment. In this approach the Cellbot camera works as a sensor capable of correlating the images elements to the real world, thus the system is capable of finding the distances of the obstacles and that information is used for the occupancy grid mapping and for fuzzy control input. Experimental results with V-REP simulator are presented to validate the proposal, and the results were favorable to the use in robotics and in acceptable computing time.},
+ author = {Farias, K.D.M. and Leal, R. Wilson and Bezerra, Ranulfo and Rabelo, R.A.L. and Santana, A.M.},
+ doi = {10.1109/clei.2017.8226377},
+ isbn = {9781538630570},
+ keywords = {Fuzzy System,Monocular Vision,Occupancy-Grid Mapping,Wall-Following},
+ pages = {1--8},
+ series = {2017 XLIII Latin American Computer Conference (CLEI)},
+ title = {An approach for environment mapping and control of wall follower cellbot through monocular vision and fuzzy system},
+ volume = {2017-Janua},
+ year = {2017}
+}
+
+@article{BezerraNeto2015,
+ abstract = {This paper goal is to present a systematic revision of the works related to robotic on education, which were published on three national events of this area: Informatics on Education Brazilian Symposium (SBIE), Informatics on School Workshop (WIE), Robotics on Education Workshop (WRE), between 2004 to 2014. The results shown an increasing interest of brazilian community for the area, highlighting the northeast and southeast regions of Brazil responsible for most of the works. It was also found that 63\% of this works represents proposals of the use of robotics on elementary school with new methodologies and robots to assist pedagogy in the use of robotics.},
+ author = {Bezerra, Ranulfo and Rocha, Diego Porto and Souza, Anderson A. S. and Santana, Andre Macedo},
+ doi = {10.5753/cbie.sbie.2015.386},
+ journal = {Simpósio Brasileiro de Informática na Educação},
+ keywords = {},
+ pages = {386--393},
+ title = {Robótica na Educação: Uma Revisão Sistemática dos Últimos 10 Anos},
+ url = {http://br-ie.org/pub/index.php/sbie/article/view/5192},
+ year = {2015}
+}
+
+@article{10.1007/s10846-021-01419-w,
+ abstract = {Autonomous vehicles require high-level semantic maps, which contain the activities of pedestrians and cars, to ensure safe navigation. High-level semantics can be obtained from mobile probe sensor data. Analyzing pedestrian trajectories obtained from mobile probe data is an effective approach to avoid collisions between autonomous vehicles and pedestrians. Such analyses of pedestrian trajectories can generate new information such as pedestrian behaviors in violation of traffic regulations. However, pedestrian trajectories obtained from mobile probe data significantly sparse and noisy, making it challenging to analyze pedestrian activity. To address this issue, we propose multiple daily data and graph-based approaches to treat sparse and noisy data for estimating the flow of pedestrians based on mobile probe data. To improve the sparseness of the data, multiple daily data are fused. After that, a pedestrian graph is created to enhance the region’s coverage by connecting the sparse data indicating the flow of pedestrians. This proposed approach successfully obtained pedestrian trajectory data from the sparse and noisy data. Moreover, it was possible to identify the potential locations where pedestrians tend to cross the street by analyzing the pedestrian flow. The results indicate that 83\% of well-known regions where pedestrians tend to cross the street corresponded with those extracted using the proposed approach. Furthermore, a high-level semantic map of the regions where pedestrians tend to cross the street along a 1-km road is presented. The trajectory information obtained using the proposed approach is expected to be essential for understanding different scenarios of the interactions between individuals and autonomous vehicles.},
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Westfechtel, Thomas and Kojima, Shotaro and Yamada, Kento and Tadokoro, Satoshi},
+ doi = {10.1007/s10846-021-01419-w},
+ issn = {0921-0296},
+ journal = {Journal of Intelligent \& Robotic Systems},
+ keywords = {},
+ number = {4},
+ pages = {85},
+ title = {Knowledge Acquisition from Pedestrian Flow Analysis using Sparse Mobile Probe Data},
+ volume = {102},
+ year = {2021}
+}
+
+@article{doi:10.1080/01691864.2021.1980101,
+author = {Kento Yamada and Kazunori Ohno and Ryunosuke Hamada and Ranulfo Bezerra and Naoto Miyamoto and Shotaro Kojima and Taro Suzuki and Takahiro Suzuki and Keiji Nagatani and Yukinori Shibata and Kimitaka Asano and Tomohiro Komatsu and Satoshi Tadokoro},
+title = {An individual prediction model of the pre-loading motion for operator and backhoe pairs},
+journal = {Advanced Robotics},
+volume = {35},
+number = {23},
+pages = {1388-1403},
+year  = {2021},
+publisher = {Taylor & Francis},
+doi = {10.1080/01691864.2021.1980101},
+URL = {https://doi.org/10.1080/01691864.2021.1980101},
+eprint = {https://doi.org/10.1080/01691864.2021.1980101},
+abstract = { The autonomous dump truck must judge whether the backhoe is ready for loading the sediment for smooth and safe cooperation with the human-operated backhoes. Analyzing time-series data of the human-operated backhoe loading motion is an effective method to build a prediction model. The transition of several primitive motions enables us to predict the timing when the backhoe starts loading. However, in transition modeling, manually selecting the appropriate primitive motions in the pre-loading motions requires considerable effort. In addition, a robust loading prediction is required for sensor layout changes in the installations of them. Here, we propose a BP-HMM-based prediction method of the pre-loading motion. The algorithm automatically finds the transition of several primitive motions from time-series data and its annotation labels. The selection of three angular velocities as features of the BP-HMM increases the robustness of the prediction method. The proposed method built a suitable prediction model for three different combinations of operators and backhoes. The prediction method was robust for sensor layout changes, and showed an accuracy of 100\%. The proposed prediction method contributes to the automation of earthmoving work by enabling smooth cooperation between autonomous dump trucks and human-operated backhoe. }
+}
+
+
+@article{10.1109/lra.2021.3062606,
+ abstract = {Semantic maps are an important tool to provide robots with high-level knowledge about the environment, enabling them to better react to and interact with their surroundings. However, as a single measurement of the environment is solely a snapshot of a specific time, it does not necessarily reflect the underlying semantics. In this work, we propose a method to create a semantic map of a construction site by fusing multiple daily data. The construction site is measured by an unmanned aerial vehicle (UAV) equipped with a LiDAR. We extract clusters above ground level from the measurements and classify them using either a random forest or a deep learning based classifier. Furthermore, we combine the classification results of several measurements to generalize the classification of the single measurements and create a general semantic map of the working site. We measured two construction fields for our evaluation. The classification models can achieve an average intersection over union (IoU) score of 69.2 during classification on the Sanbongi field, which is used for training, validation and testing and an IoU score of 49.16 on a hold-out testing field. In a final step, we show how the semantic map can be employed to suggest a parking spot for a dump truck, and in addition, show that the semantic map can be utilized to improve path planning inside the construction site.},
+ author = {Westfechtel, Thomas and Ohno, Kazunori and Akegawa, Tetsu and Yamada, Kento and Bezerra, Ranulfo and Kojima, Shotaro and Suzuki, Taro and Komatsu, Tomohiro and Shibata, Yukinori and Asano, Kimitaka and Nagatani, Keji and Miyamoto, Naoto and Suzuki, Takahiro and Harada, Tatsuya and Tadokoro, Satoshi},
+ doi = {10.1109/lra.2021.3062606},
+ issn = {2377-3766},
+ journal = {IEEE Robotics and Automation Letters},
+ keywords = {},
+ number = {2},
+ pages = {3073--3080},
+ title = {Semantic Mapping of Construction Site From Multiple Daily Airborne LiDAR Data},
+ volume = {6},
+ year = {2020}
+}
+
+@article{https://doi.org/10.13037/ria.vol14n2.223,
+ author = {Bezerra, Ranulfo and Rocha, Francisco Bruno De Sousa and Rocha, Diego Porto and Farias, Karoline De Moura and Rabelo, Ricardo De Andrade Lira and Santana, André Macêdo},
+ doi = {https://doi.org/10.13037/ria.vol14n2.223},
+ journal = {Revista de Informática Aplicada},
+ keywords = {cellphone,image analysis,motion capture},
+ number = {Vol. 14 No. 2},
+ title = {Sistema Óptico Portátil para Auxílio na Análise Cinemática da Marcha Humana},
+ year = {2018}
+}
+
+@article{undefined,
+ author = {Junior, Wilson L. Rodrigues and Reis, Dyogo M. and Bezerra, Ranulfo and Machado, Ronnasayd S. and Silva, Wanderson A. S. and Neto, José O. Brito and Rabêlo, Ricardo A. L. and Santana, André M.},
+ journal = {Revista de Sistemas e Computação},
+ keywords = {},
+ pages = {p. 55--63},
+ title = {Aplicação De Controladores Fuzzy E Proporcional Para Um Robô Seguidorde Parede Autônomoem Ambiente Estático},
+ volume = {v. 6, n. 1,},
+ year = {2016}
+}
+
+@article{rsj2021,
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Kojima, Shotaro and Tadokoro, Satoshi},
+ journal = {39th Japan Robotics Society Academic Lecture (RSJ)},
+ title = {Region Recognition Based on HMM Using Primitive Motion Transitions},
+ year = {2021}
+}
+
+@article{rsj2020,
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Westfechtel, Thomas and Kojima, Shotaro and Yamada, Kento and Tadokoro, Satoshi},
+ journal = {38th Japan Robotics Society Academic Lecture (RSJ)},
+ title = {Finding Suitable Pedestrian Crosswalk Locations from Trajectory Analysis},
+ year = {2020}
+}
+
+@article{rsj2019,
+ author = {Bezerra, Ranulfo and Ohno, Kazunori and Westfechtel, Thomas and Kojima, Shotaro and Yamada, Kento and Tadokoro, Satoshi},
+ journal = {37th Japan Robotics Society Academic Lecture (RSJ)},
+ title = {Pedestrian Flow Estimation Using Sparse Observation from Autonomous Vehicles},
+ year = {2019}
+}
+
+@article{rsj2019-1,
+ author = {Westfechtel, Thomas and Ohno, Kazunori and Bezerra, Ranulfo  and Kojima, Shotaro and Tadokoro, Satoshi},
+ journal = {37th Japan Robotics Society Academic Lecture (RSJ)},
+ title = {Large Scale Semantic Mapping Through Multi-modal Sensor Fusion},
+ year = {2019}
+}
+
