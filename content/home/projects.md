@@ -47,12 +47,16 @@ design:
   flip_alt_rows: false
 ---
 
+<!-- ![image](graph_two.jpg){: style="float: left"; margin-right: 10em; height="25%" width="25%"} ## Some Text On Left!<br>Some Text On Left!<br><br>Some Text On Left!Some Text On Left!Some Text -->
+<!-- #https://medium.com/analytics-vidhya/7-advanced-markdown-tips-5a031620bf52 -->
+#### [2022-present] Internet of Robotic Things
 
+The promise of the IoT also extends to bridging the gap between the physical and digital worlds. The Internet of Robotic Things (IoRT) contributes to this purpose by allowing robots to make autonomous decisions–within specific environmental conditions and uncertainties. This means that robots are not just a part of the IoT but, by interacting and communicating with other “things”, they learn enough qualities to also analyze the data and act upon them. 
 
-## Active Projects
+#### [2021-present] Multi-robot Control System on Mass Customization Environment
 
-- Test
+Industrial environments that rely on Mass Customization are characterized by a high variety of product models and reduced batch sizes, demanding prompt adaptation of resources to a new product model. In such environment, it is important to schedule tasks that require manual procedures with different levels of complexity and repetitiveness as well as mobile robot for material transportation. 
 
-## Past Projects
+#### [2018-2021] Knowledge Acquisition from Sparse Mobile Probe Data
 
-- Test
+This study provides different techniques to improve the perception for autonomous vehicles by knowledge acquisition. These techniques can help overcome the difficulties and limitations that autonomous vehicles currently face. By adding this newly-acquired high-level knowledge to the vehicle perception system, AVSs can rely on a broader a priori environment knowledge. This not only helps increase the autonomous vehicle’s understanding of the environment, but is an essential tool for further action planning of the vehicle.
